@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgb(28, 6, 49);
+    height: 0.5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    color: aliceblue;
+}

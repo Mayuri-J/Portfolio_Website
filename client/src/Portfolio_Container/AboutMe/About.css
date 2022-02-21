@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900");
+.titleabout{
+    padding-top: 3%;
+    color: rgb(109, 5, 48);
+    font-size: 6vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container1{
+    user-select: none;
+    margin-top: 7;
+    background: #231e39;
+    color: #b3b8cd;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+}
+.cover-photo{
+    background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.profileimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    border: 1px solid #1f1a32;
+    padding: 7px;
+    background: #292343;
+}
+.profileimg:hover{
+  transform: scale(1.05);
+}
+.profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 120px;
+}
+.card-title{
+    margin-left: 9%;
+    margin-right: 20%;
+    text-align: left;
+    margin-top: 35px;
+    line-height: 21px;
+}
+.card-text
+{
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 9%;
+    margin-bottom: 12%;
+    text-align: left;
+}
+.container1:hover{
+    color: #03bfbc;
+  }
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(D:/Portfolio/client/src/Images/web.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(D:/Portfolio/client/src/Images/algo.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(D:/Portfolio/client/src/Images/coding.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-4{
+  background-image: url(D:/Portfolio/client/src/Images/oop.jpg);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-5{
+  background-image: url(D:/Portfolio/client/src/Images/dbms.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 80px;
+}
+.card-6{
+  background-image: url(D:/Portfolio/client/src/Images/os.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 80px;
+}
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+
+  
