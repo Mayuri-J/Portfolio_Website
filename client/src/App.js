@@ -5,7 +5,8 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
+  Link,
+  
 } from "react-router-dom";
 import About from './Portfolio_Container/AboutMe/About';
 import Contact from './Portfolio_Container/Contact/Contact';
@@ -16,8 +17,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand as={Link} to="/home">Mayuri</Navbar.Brand>
+          <Container>   
+          <Navbar.Brand as={Link} to="/home">Mayuri</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About Me</Nav.Link>
@@ -26,13 +27,14 @@ function App() {
           </Container>
         </Navbar>
         <div>
-          <Routes>
-            <Route path="/" element={<Profile/>} /> 
+        <Routes>
             <Route path='About' element={<About/>}/>
             <Route path='home' element={<Profile/>}/>
             <Route path='Contact' element={<Contact/>}/>
           </Routes>
+          
         </div>
+        <Profile/>
         <Footer/>
       </div>
     </BrowserRouter>
